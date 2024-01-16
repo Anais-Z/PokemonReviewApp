@@ -10,6 +10,6 @@
 
         public Country Country { get; set; }
 
-        public ICollection<PokemonOwner> PokemonOwners { get; set; }
+        public ICollection<PokemonOwner> PokemonOwners  { get; set; }
     }
 }
