@@ -100,7 +100,7 @@ namespace PokemonReviewApp.Controllers
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
-        public IActionResult UpdateOwner(int reviewerId, [FromBody] ReviewerDto updateReviewer)
+        public IActionResult UpdateReviewer(int reviewerId, [FromBody] ReviewerDto updateReviewer)
         {
             if (updateReviewer == null)
             {
